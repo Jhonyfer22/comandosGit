@@ -8,9 +8,9 @@ verificar usuario
 git config user.name
 git config user.email
 
-cuando me ubique en la carpeta hacer 
-
 me ubico con el cd + la dirección de la carpeta ojo con los "/"
+
+cuando me ubique en la carpeta hacer 
 
 git init
 
@@ -18,6 +18,17 @@ agregando el repositorio
 
 git remote add origin https://github.com/Jhonyfer22/comandosGit.git
 
+git status aparecenn los documentos no agregados y se coloca git add *
+
 me ubico en la rama main
 
 git branch -m main
+
+git pull origin main
+
+ahora si git commit -m "mi prime commit xd"
+
+git push origin main
+
+OJO SI APARECE UN LETRETO EN ROJO QUE DICE HISTORIAS DIFERENTES O ALGO ASÍ
+git push origin main --force
