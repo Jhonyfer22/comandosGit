@@ -1,0 +1,23 @@
+cambio de usuario
+
+git config --global user.name "nuevo_usuario"
+git config --global user.email "tu_correo@ejemplo.com"
+
+verificar usuario 
+
+git config user.name
+git config user.email
+
+cuando me ubique en la carpeta hacer 
+
+me ubico con el cd + la dirección de la carpeta ojo con los "/"
+
+git init
+
+agregando el repositorio
+
+git remote add origin https://github.com/Jhonyfer22/comandosGit.git
+
+me ubico en la rama main
+
+git branch -m main
